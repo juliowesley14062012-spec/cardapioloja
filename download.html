@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download do Projeto Rei Gelado</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            min-height: 100vh;
+        }
+        .container {
+            background: rgba(255,255,255,0.1);
+            padding: 30px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+        h1 {
+            text-align: center;
+            color: #ffd700;
+            margin-bottom: 30px;
+        }
+        .download-section {
+            background: rgba(255,255,255,0.05);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .file-list {
+            background: rgba(0,0,0,0.3);
+            padding: 15px;
+            border-radius: 8px;
+            font-family: monospace;
+            margin: 15px 0;
+        }
+        .step {
+            margin: 15px 0;
+            padding: 15px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 8px;
+            border-left: 4px solid #ffd700;
+        }
+        .warning {
+            background: rgba(255,165,0,0.2);
+            border-left-color: orange;
+        }
+        button {
+            background: linear-gradient(45deg, #ffd700, #ffed4e);
+            color: #333;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 25px;
+            font-weight: bold;
+            cursor: pointer;
+            margin: 10px 5px;
+            transition: transform 0.2s;
+        }
+        button:hover {
+            transform: scale(1.05);
+        }
+        .code {
+            background: rgba(0,0,0,0.5);
+            padding: 10px;
+            border-radius: 5px;
+            font-family: monospace;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🍨 Projeto Rei Gelado - Download</h1>
+        
+        <div class="download-section">
+            <h2>📦 Como baixar o projeto completo:</h2>
+            
+            <div class="step">
+                <h3>Opção 1: Download via Browser (Recomendado)</h3>
+                <p>1. Clique no botão abaixo para baixar todos os arquivos:</p>
+                <button onclick="downloadAllFiles()">📥 Baixar Projeto Completo</button>
+                <p><small>Isso irá baixar todos os arquivos necessários para o Netlify</small></p>
+            </div>
+            
+            <div class="step">
+                <h3>Opção 2: Arquivos Individuais</h3>
+                <p>Baixe cada arquivo separadamente:</p>
+                <button onclick="downloadFile('index.html', getIndexHtml())">📄 index.html</button>
+                <button onclick="downloadFile('config.json', getConfigJson())">⚙️ config.json</button>
+                <button onclick="downloadFile('vite.svg', getViteSvg())">🖼️ vite.svg</button>
+            </div>
+            
+            <div class="step warning">
+                <h3>⚠️ Importante para o Netlify:</h3>
+                <p>O projeto foi construído e otimizado. Os arquivos incluem:</p>
+                <div class="file-list">
+📁 Projeto Rei Gelado/
+├── 📄 index.html (página principal)
+├── ⚙️ config.json (configurações)
+├── 🖼️ vite.svg (ícone)
+└── 📁 assets/ (CSS e JS compilados)
+                </div>
+            </div>
+            
+            <div class="step">
+                <h3>🚀 Como fazer deploy no Netlify:</h3>
+                <ol>
+                    <li>Baixe todos os arquivos usando a Opção 1</li>
+                    <li>Extraia o ZIP baixado</li>
+                    <li>Acesse <a href="https://netlify.com" target="_blank" style="color: #ffd700;">netlify.com</a></li>
+                    <li>Arraste a pasta extraída para o Netlify</li>
+                    <li>Pronto! Seu site estará online</li>
+                </ol>
+            </div>
+        </div>
+        
+        <div class="download-section">
+            <h2>📋 Arquivos do Projeto:</h2>
+            <div class="file-list" id="fileList">
+                Carregando lista de arquivos...
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Função para baixar arquivo individual
+        function downloadFile(filename, content) {
+            const blob = new Blob([content], { type: 'text/plain' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            window.URL.revokeObjectURL(url);
+        }
+        
+        // Função para baixar todos os arquivos como ZIP
+        function downloadAllFiles() {
+            // Como não podemos criar ZIP no browser facilmente, vamos baixar os arquivos principais
+            alert('Baixando arquivos principais...\n\nVocê receberá:\n- index.html\n- config.json\n- vite.svg\n\nPara os assets compilados, use o build do projeto.');
+            
+            setTimeout(() => downloadFile('index.html', getIndexHtml()), 500);
+            setTimeout(() => downloadFile('config.json', getConfigJson()), 1000);
+            setTimeout(() => downloadFile('vite.svg', getViteSvg()), 1500);
+        }
+        
+        // Conteúdo dos arquivos
+        function getIndexHtml() {
+            return \`<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rei Gelado - Sorvetes e Açaí</title>
+    <meta name="description" content="Monte seu açaí do seu jeito! Escolha tamanhos, sabores, coberturas e adicionais na melhor sorveteria da região." />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>\`;
+        }
+        
+        function getConfigJson() {
+            return \`{
+  "whatsapp": "5521995813444",
+  "cupSizes": [
+    {
+      "id": "330ml",
+      "name": "330ml",
+      "volume": "330ml",
+      "price": 13.00,
+      "description": "Pequeno no tamanho, gigante no sabor! Ideal pra matar aquela vontade de um jeitinho leve e delicioso."
+    },
+    {
+      "id": "440ml",
+      "name": "440ml",
+      "volume": "440ml",
+      "price": 15.00,
+      "description": "O equilíbrio perfeito. Nem muito, nem pouco. Só o suficiente pra montar seu copo com tudo que importa!"
+    },
+    {
+      "id": "550ml",
+      "name": "550ml",
+      "volume": "550ml",
+      "price": 17.00,
+      "description": "Espaço ideal pra soltar a criatividade! Espaço de sobra pra misturar açaí, frutas, guloseimas."
+    },
+    {
+      "id": "770ml",
+      "name": "770ml",
+      "volume": "770ml",
+      "price": 20.00,
+      "description": "Pra quem quer caprichar sem dó! Aqui cabe sua criatividade com folga. É quase um banquete gelado!"
+    },
+    {
+      "id": "1000ml",
+      "name": "Pote 1 Litro",
+      "volume": "1000ml",
+      "price": 26.00,
+      "description": "Aqui cabe tudo que a sua fome mandar! 1 litro inteiro pra criar sua obra-prima gelada.",
+      "highlight": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "coberturas",
+      "name": "Coberturas",
+      "maxSelections": 1,
+      "items": [
+        { "id": "chocolate", "name": "Calda de Chocolate" },
+        { "id": "morango", "name": "Calda de Morango" },
+        { "id": "caramelo", "name": "Calda de Caramelo" },
+        { "id": "chocomenta", "name": "Calda de Chocomenta" },
+        { "id": "menta", "name": "Calda de Menta" },
+        { "id": "tutti-frutti", "name": "Calda de Tutti Frutti" },
+        { "id": "uva", "name": "Calda de Uva" },
+        { "id": "leite-condensado", "name": "Calda de Leite Condensado" },
+        { "id": "maca-verde", "name": "Calda de Maçã Verde" }
+      ]
+    },
+    {
+      "id": "coberturas-fini",
+      "name": "Coberturas Especiais Fini",
+      "maxSelections": 1,
+      "hasExtraPrice": true,
+      "items": [
+        { "id": "beijos-fini", "name": "Calda Beijos Fini", "price": 1.00 },
+        { "id": "dentaduras-fini", "name": "Calda Dentaduras Fini", "price": 1.00 },
+        { "id": "bananas-fini", "name": "Calda Bananas Fini", "price": 1.00 }
+      ]
+    },
+    {
+      "id": "acai-sorvete",
+      "name": "Açaí e Sorvete",
+      "maxSelections": 4,
+      "required": true,
+      "items": [
+        { "id": "acai-natural", "name": "Açaí Natural" },
+        { "id": "acai-banana", "name": "Açaí de Banana" },
+        { "id": "acai-morango", "name": "Açaí de Morango" },
+        { "id": "sorvete-banana-nutella", "name": "Sorvete de Banana com Nutella" },
+        { "id": "sorvete-nutella", "name": "Sorvete de Nutella" },
+        { "id": "sorvete-ferrero", "name": "Sorvete de Ferrero Rocher" },
+        { "id": "sorvete-galak", "name": "Sorvete de Galak" },
+        { "id": "sorvete-oreo", "name": "Sorvete de Óreo" },
+        { "id": "sorvete-ovomaltine", "name": "Sorvete de Ovomaltine" },
+        { "id": "sorvete-passas", "name": "Sorvete de Passas ao Rum" }
+      ]
+    },
+    {
+      "id": "guloseimas",
+      "name": "Guloseimas",
+      "maxSelections": 4,
+      "items": [
+        { "id": "amendoim", "name": "Amendoim" },
+        { "id": "chocoball", "name": "Chocoball" },
+        { "id": "flocos-arroz", "name": "Flocos de Arroz" },
+        { "id": "granola", "name": "Granola" },
+        { "id": "granulado", "name": "Granulado" },
+        { "id": "leite-ninho", "name": "Leite Ninho" },
+        { "id": "pacoca", "name": "Paçoca" },
+        { "id": "sucrilhos", "name": "Sucrilhos" }
+      ]
+    },
+    {
+      "id": "guloseimas-especiais",
+      "name": "Guloseimas Especiais",
+      "maxSelections": 4,
+      "hasExtraPrice": true,
+      "items": [
+        { "id": "disquete", "name": "Disquete", "price": 1.00 },
+        { "id": "ovomaltine-extra", "name": "Ovomaltine", "price": 1.00 },
+        { "id": "jujuba", "name": "Jujuba", "price": 1.00 },
+        { "id": "biscoito", "name": "Biscoito", "price": 1.00 }
+      ]
+    },
+    {
+      "id": "mega-especiais",
+      "name": "Adicionais Mega Especiais",
+      "maxSelections": 10,
+      "hasExtraPrice": true,
+      "items": [
+        { "id": "brownie", "name": "Brownie Artesanal", "price": 4.00 },
+        { "id": "creme-ninho", "name": "Creme de Ninho Premium", "price": 4.00 },
+        { "id": "creme-morango", "name": "Creme de Morango Premium", "price": 4.00 },
+        { "id": "creme-ouro-branco", "name": "Creme de Ouro Branco", "price": 4.00 },
+        { "id": "mini-oreo", "name": "Mini Óreo Crocante", "price": 4.00 },
+        { "id": "ouro-branco", "name": "Ouro Branco", "price": 4.00 },
+        { "id": "sonho-valsa", "name": "Sonho de Valsa", "price": 4.00 }
+      ]
+    }
+  ]
+}\`;
+        }
+        
+        function getViteSvg() {
+            return \`<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--logos" width="31.88" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 257"><defs><linearGradient id="IconifyId1813088fe1fbc01fb466" x1="-.828%" x2="57.636%" y1="7.652%" y2="78.411%"><stop offset="0%" stop-color="#41D1FF"></stop><stop offset="100%" stop-color="#BD34FE"></stop></linearGradient><linearGradient id="IconifyId1813088fe1fbc01fb467" x1="43.376%" x2="50.316%" y1="2.242%" y2="89.03%"><stop offset="0%" stop-color="#FFEA83"></stop><stop offset="8.333%" stop-color="#FFDD35"></stop><stop offset="100%" stop-color="#FFA800"></stop></linearGradient></defs><path fill="url(#IconifyId1813088fe1fbc01fb466)" d="M255.153 37.938L134.897 252.976c-2.483 4.44-8.862 4.466-11.382.048L.875 37.958c-2.746-4.814 1.371-10.646 6.827-9.67l120.385 21.517a6.537 6.537 0 0 0 2.322-.004l117.867-21.483c5.438-.991 9.574 4.796 6.877 9.62Z"></path><path fill="url(#IconifyId1813088fe1fbc01fb467)" d="M185.432.063L96.44 17.501a3.268 3.268 0 0 0-2.634 3.014l-5.474 92.456a3.268 3.268 0 0 0 3.997 3.378l24.777-5.718c2.318-.535 4.413 1.507 3.936 3.838l-7.361 36.047c-.495 2.426 1.782 4.5 4.151 3.78l15.304-4.649c2.372-.72 4.652 1.36 4.15 3.788l-11.698 56.621c-.732 3.542 3.979 5.473 5.943 2.437l1.313-2.028l72.516-144.72c1.215-2.423-.88-5.186-3.54-4.672l-25.505 4.922c-2.396.462-4.435-1.77-3.759-4.114l16.646-57.705c.677-2.35-1.37-4.583-3.769-4.113Z"></path></svg>\`;
+        }
+        
+        // Carregar lista de arquivos
+        window.onload = function() {
+            const fileList = document.getElementById('fileList');
+            fileList.innerHTML = \`
+📁 dist/ (arquivos compilados)
+├── 📄 index.html
+├── ⚙️ config.json  
+├── 🖼️ vite.svg
+└── 📁 assets/
+    ├── 🎨 index-[hash].css
+    └── ⚙️ index-[hash].js
+
+📁 src/ (código fonte)
+├── 📄 App.tsx
+├── 📄 main.tsx
+├── 🎨 index.css
+└── 📄 vite-env.d.ts
+
+📁 public/
+└── ⚙️ config.json
+            \`;
+        };
+    </script>
+</body>
+</html>

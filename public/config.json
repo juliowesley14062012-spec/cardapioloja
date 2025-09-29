@@ -1,0 +1,159 @@
+{
+  "whatsapp": "5521995813444",
+  "cupSizes": [
+    {
+      "id": "330ml",
+      "name": "330ml",
+      "volume": "330ml",
+      "price": 13.00,
+      "description": "Pequeno no tamanho, gigante no sabor! Ideal pra matar aquela vontade de um jeitinho leve e delicioso."
+    },
+    {
+      "id": "440ml",
+      "name": "440ml",
+      "volume": "440ml",
+      "price": 15.00,
+      "description": "O equilíbrio perfeito. Nem muito, nem pouco. Só o suficiente pra montar seu copo com tudo que importa!"
+    },
+    {
+      "id": "550ml",
+      "name": "550ml",
+      "volume": "550ml",
+      "price": 17.00,
+      "description": "Espaço ideal pra soltar a criatividade! Espaço de sobra pra misturar açaí, frutas, guloseimas."
+    },
+    {
+      "id": "770ml",
+      "name": "770ml",
+      "volume": "770ml",
+      "price": 20.00,
+      "description": "Pra quem quer caprichar sem dó! Aqui cabe sua criatividade com folga. É quase um banquete gelado!"
+    },
+    {
+      "id": "1000ml",
+      "name": "Pote 1 Litro",
+      "volume": "1000ml",
+      "price": 26.00,
+      "description": "Aqui cabe tudo que a sua fome mandar! 1 litro inteiro pra criar sua obra-prima gelada.",
+      "highlight": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "coberturas",
+      "name": "Coberturas",
+      "maxSelections": 1,
+      "items": [
+        { "id": "sem-calda", "name": "Sem Cobertura" },
+        { "id": "chocolate", "name": "Calda de Chocolate" },
+        { "id": "morango", "name": "Calda de Morango" },
+        { "id": "caramelo", "name": "Calda de Caramelo" },
+        { "id": "chocomenta", "name": "Calda de Chocomenta" },
+        { "id": "menta", "name": "Calda de Menta" },
+        { "id": "tutti-frutti", "name": "Calda de Tutti Frutti" },
+        { "id": "cobertura-uva", "name": "Calda de Uva" },
+        { "id": "acai", "name": "Calda de Açaí" },
+        { "id": "leite-condensado", "name": "Calda de Leite Condensado" },
+        { "id": "maca-verde", "name": "Calda de Maçã Verde" }
+      ]
+    },
+    {
+      "id": "coberturas-fini",
+      "name": "Coberturas Especiais Fini",
+      "maxSelections": 1,
+      "hasExtraPrice": true,
+      "items": [
+        { "id": "beijos-fini", "name": "Calda Beijos Fini", "price": 1.00 },
+        { "id": "dentaduras-fini", "name": "Calda Dentaduras Fini", "price": 1.00 },
+        { "id": "bananas-fini", "name": "Calda Bananas Fini", "price": 1.00 }
+      ]
+    },
+    {
+      "id": "frutas",
+      "name": "Frutas",
+      "maxSelections": 4,
+      "hasExtraPrice": true,
+      "items": [
+        { "id": "banana", "name": "Banana", "price": 2.00 },
+        { "id": "manga", "name": "Manga", "price": 2.00 },
+        { "id": "uva", "name": "Uva", "price": 2.00 },
+        { "id": "morango", "name": "Morango", "price": 2.00 }
+      ]
+    },
+    {
+      "id": "acai-sorvete",
+      "name": "Açaí e Sorvete",
+      "maxSelections": 4,
+      "required": true,
+      "items": [
+        { "id": "acai-natural", "name": "Açaí Natural" },
+        { "id": "acai-banana", "name": "Açaí de Banana" },
+        { "id": "acai-morango", "name": "Açaí de Morango" },
+        { "id": "acai-maracuja", "name": "Açaí de Maracujá" },
+        { "id": "sorvete-ninho", "name": "Sorvete de Ninho Trufado" },
+        { "id": "sorvete-mousse", "name": "Sorvete de Mousse de Maracujá" },
+        { "id": "sorvete-menta", "name": "Sorvete de Chocomenta" },
+        { "id": "sorvete-sufle", "name": "Sorvete de Suflê de Morango" },
+        { "id": "sorvete-flocos", "name": "Sorvete de Flocos" },
+        { "id": "sorvete-ferrero", "name": "Sorvete de Ferrero Rocher" },
+        { "id": "sorvete-pave", "name": "Sorvete de Pavê" },
+        { "id": "sorvete-passas", "name": "Sorvete de Passas ao Rum" }
+      ]
+    },
+    {
+      "id": "guloseimas",
+      "name": "Guloseimas",
+      "maxSelections": 4,
+      "items": [
+        { "id": "amendoim", "name": "Amendoim" },
+        { "id": "chocoball", "name": "Chocoball" },
+        { "id": "flocos-arroz", "name": "Flocos de Arroz" },
+        { "id": "granola", "name": "Granola" },
+        { "id": "granulado", "name": "Granulado" },
+        { "id": "leite-ninho", "name": "Leite Ninho" },
+        { "id": "pacoca", "name": "Paçoca" },
+        { "id": "sucrilhos", "name": "Sucrilhos" }
+      ]
+    },
+    {
+      "id": "guloseimas-especiais",
+      "name": "Guloseimas Especiais",
+      "maxSelections": 4,
+      "hasExtraPrice": true,
+      "items": [
+        { "id": "negresco", "name": "Negresco", "price": 2.00 },
+        { "id": "disquete", "name": "Disquete", "price": 2.00 },
+        { "id": "ovomaltine-extra", "name": "Ovomaltine", "price": 2.00 },
+        { "id": "jujuba", "name": "Jujuba", "price": 1.00 },
+        { "id": "biscoito", "name": "Biscoito", "price": 0.50 }
+      ]
+    },
+    {
+      "id": "como",
+      "name": "Como quer suas Guloseimas ?",
+      "maxSelections": 1,
+      "hasExtraPrice": true,
+      "items": [
+        { "id": "meio", "name": "Somente no Meio" },
+        { "id": "cima", "name": "Somente em cima" },
+        { "id": "meiocima", "name": "No Meio e em Cima" }
+      ]
+    },
+    {
+      "id": "mega-especiais",
+      "name": "Adicionais Mega Especiais",
+      "maxSelections": 10,
+      "hasExtraPrice": true,
+      "items": [
+        { "id": "brownie", "name": "Brownie Artesanal", "price": 4.00 },
+        { "id": "creme-avela", "name": "Creme de Avelã com Chocolate", "price": 4.00 },
+        { "id": "creme-ninho", "name": "Creme de Ninho Premium", "price": 4.00 },
+        { "id": "creme-morango", "name": "Creme de Morango Premium", "price": 4.00 },
+        { "id": "creme-ouro-branco", "name": "Creme de Ouro Branco", "price": 4.00 },
+        { "id": "mini-oreo", "name": "Mini Óreo Crocante", "price": 4.00 },
+        { "id": "ouro-branco", "name": "Ouro Branco", "price": 4.00 },
+        { "id": "sonho-valsa", "name": "Sonho de Valsa", "price": 4.00 }
+      ]
+    }
+  ]
+}

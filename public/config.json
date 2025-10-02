@@ -5,35 +5,35 @@
       "id": "330ml",
       "name": "330ml",
       "volume": "330ml",
-      "price": 15.00,
+      "price": 13.00,
       "description": "Pequeno no tamanho, gigante no sabor! Ideal pra matar aquela vontade de um jeitinho leve e delicioso."
     },
     {
       "id": "440ml",
       "name": "440ml",
       "volume": "440ml",
-      "price": 17.00,
+      "price": 15.00,
       "description": "O equilíbrio perfeito. Nem muito, nem pouco. Só o suficiente pra montar seu copo com tudo que importa!"
     },
     {
       "id": "550ml",
       "name": "550ml",
       "volume": "550ml",
-      "price": 20.00,
+      "price": 17.00,
       "description": "Espaço ideal pra soltar a criatividade! Espaço de sobra pra misturar açaí, frutas, guloseimas."
     },
     {
       "id": "770ml",
       "name": "770ml",
       "volume": "770ml",
-      "price": 23.00,
+      "price": 20.00,
       "description": "Pra quem quer caprichar sem dó! Aqui cabe sua criatividade com folga. É quase um banquete gelado!"
     },
     {
       "id": "1000ml",
       "name": "Pote 1 Litro",
       "volume": "1000ml",
-      "price": 29.00,
+      "price": 26.00,
       "description": "Aqui cabe tudo que a sua fome mandar! 1 litro inteiro pra criar sua obra-prima gelada.",
       "highlight": true
     }

@@ -89,13 +89,13 @@
         { "id": "acai-natural", "name": "Açaí Natural" },
         { "id": "acai-banana", "name": "Açaí de Banana" },
         { "id": "acai-morango", "name": "Açaí de Morango" },
-        { "id": "acai-maracuja", "name": "Açaí de Maracujá" },
+        { "id": "acai-nutella", "name": "Açaí de Nutella" },
         { "id": "sorvete-ninho", "name": "Sorvete de Ninho Trufado" },
         { "id": "sorvete-mousse", "name": "Sorvete de Mousse de Maracujá" },
         { "id": "sorvete-menta", "name": "Sorvete de Chocomenta" },
         { "id": "sorvete-sufle", "name": "Sorvete de Suflê de Morango" },
         { "id": "sorvete-flocos", "name": "Sorvete de Flocos" },
-        { "id": "sorvete-ferrero", "name": "Sorvete de Ferrero Rocher" },
+        { "id": "sorvete-nutella", "name": "Sorvete de Nutella" },
         { "id": "sorvete-pave", "name": "Sorvete de Pavê" },
         { "id": "sorvete-passas", "name": "Sorvete de Passas ao Rum" }
       ]

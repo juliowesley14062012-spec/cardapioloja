@@ -150,8 +150,8 @@
         { "id": "creme-morango", "name": "Creme de Morango Premium", "price": 4.00 },
         { "id": "creme-ouro-branco", "name": "Creme de Ouro Branco", "price": 4.00 },
         { "id": "mini-oreo", "name": "Mini Óreo Crocante", "price": 4.00 },
-        { "id": "ouro-branco", "name": "Ouro Branco", "price": 4.00 },
-        { "id": "sonho-valsa", "name": "Sonho de Valsa", "price": 4.00 }
+        { "id": "ouro-branco", "name": "Bombom Ouro Branco", "price": 4.00 },
+        { "id": "sonho-valsa", "name": "Bombom Sonho de Valsa", "price": 4.00 }
       ]
     }
   ]

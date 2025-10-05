@@ -75,7 +75,6 @@
       "hasExtraPrice": true,
       "items": [
         { "id": "banana", "name": "Banana", "price": 2.00 },
-        { "id": "manga", "name": "Manga", "price": 2.00 },
         { "id": "uva", "name": "Uva", "price": 2.00 },
         { "id": "morango", "name": "Morango", "price": 2.00 }
       ]
@@ -97,7 +96,7 @@
         { "id": "sorvete-flocos", "name": "Sorvete de Flocos" },
         { "id": "sorvete-nutella", "name": "Sorvete de Nutella" },
         { "id": "sorvete-pave", "name": "Sorvete de Pavê" },
-        { "id": "sorvete-passas", "name": "Sorvete de Passas ao Rum" }
+        { "id": "sorvete-frutas", "name": "Sorvete de Frutas Vermelhas" }
       ]
     },
     {

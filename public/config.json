@@ -95,8 +95,8 @@
         { "id": "sorvete-sufle", "name": "Sorvete de Suflê de Morango" },
         { "id": "sorvete-flocos", "name": "Sorvete de Flocos" },
         { "id": "sorvete-nutella", "name": "Sorvete de Nutella" },
-        { "id": "sorvete-pave", "name": "Sorvete de Pavê" },
-        { "id": "sorvete-frutas", "name": "Sorvete de Frutas Vermelhas" }
+        { "id": "sorvete-ovomaltine", "name": "Sorvete de Ovomaltine" },
+        { "id": "sorvete-galak", "name": "Sorvete de Galak" }
       ]
     },
     {
@@ -144,7 +144,6 @@
       "maxSelections": 10,
       "hasExtraPrice": true,
       "items": [
-        { "id": "brownie", "name": "Brownie Artesanal", "price": 4.00 },
         { "id": "creme-avela", "name": "Creme de Avelã com Chocolate", "price": 4.00 },
         { "id": "creme-ninho", "name": "Creme de Ninho Premium", "price": 4.00 },
         { "id": "creme-morango", "name": "Creme de Morango Premium", "price": 4.00 },

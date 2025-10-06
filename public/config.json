@@ -69,17 +69,6 @@
       ]
     },
     {
-      "id": "frutas",
-      "name": "Frutas",
-      "maxSelections": 4,
-      "hasExtraPrice": true,
-      "items": [
-        { "id": "banana", "name": "Banana", "price": 2.00 },
-        { "id": "uva", "name": "Uva", "price": 2.00 },
-        { "id": "morango", "name": "Morango", "price": 2.00 }
-      ]
-    },
-    {
       "id": "acai-sorvete",
       "name": "Açaí e Sorvete",
       "maxSelections": 4,

@@ -69,6 +69,17 @@
       ]
     },
     {
+      "id": "frutas",
+      "name": "Frutas",
+      "maxSelections": 4,
+      "hasExtraPrice": true,
+      "items": [
+        { "id": "banana", "name": "Banana", "price": 2.00 },
+        { "id": "manga", "name": "Manga", "price": 2.00 },
+        { "id": "morango", "name": "Morango", "price": 2.00 }
+      ]
+    },
+    {
       "id": "acai-sorvete",
       "name": "Açaí e Sorvete",
       "maxSelections": 4,
@@ -133,6 +144,7 @@
       "maxSelections": 10,
       "hasExtraPrice": true,
       "items": [
+        { "id": "brownie", "name": "Brownie Artesanal", "price": 4.00 },
         { "id": "creme-avela", "name": "Creme de Avelã com Chocolate", "price": 4.00 },
         { "id": "creme-ninho", "name": "Creme de Ninho Premium", "price": 4.00 },
         { "id": "creme-morango", "name": "Creme de Morango Premium", "price": 4.00 },

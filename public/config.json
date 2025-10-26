@@ -75,7 +75,6 @@
       "hasExtraPrice": true,
       "items": [
         { "id": "banana", "name": "Banana", "price": 2.00 },
-        { "id": "morango", "name": "Morango", "price": 2.00 },
         { "id": "manga", "name": "Manga", "price": 2.00 }
       ]
     },
@@ -86,8 +85,6 @@
       "required": true,
       "items": [
         { "id": "acai-natural", "name": "Açaí Natural" },
-        { "id": "acai-banana", "name": "Açaí de Banana" },
-        { "id": "acai-morango", "name": "Açaí de Morango" },
         { "id": "acai-ninho", "name": "Açaí de Ninho" },
         { "id": "acai-nutella", "name": "Açaí de Nutella" },
         { "id": "sorvete-coco", "name": "Sorvete de Coco" },
@@ -95,8 +92,7 @@
         { "id": "sorvete-passas", "name": "Sorvete de Passas ao Rum" },
         { "id": "sorvete-sufle", "name": "Sorvete de Suflê de Morango" },
         { "id": "sorvete-ferrero", "name": "Sorvete de Ferrero Rocher" },
-        { "id": "sorvete-ovomaltine", "name": "Sorvete de Ovomaltine" },
-        { "id": "sorvete-galak", "name": "Sorvete de Galak" }
+        { "id": "sorvete-ovomaltine", "name": "Sorvete de Ovomaltine" }
       ]
     },
     {

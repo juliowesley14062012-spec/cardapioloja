@@ -90,8 +90,6 @@
         { "id": "sorvete-coco", "name": "Sorvete de Coco" },
         { "id": "sorvete-mousse", "name": "Sorvete de Mousse de Maracujá" },
         { "id": "sorvete-passas", "name": "Sorvete de Passas ao Rum" },
-        { "id": "sorvete-sufle", "name": "Sorvete de Suflê de Morango" },
-        { "id": "sorvete-ferrero", "name": "Sorvete de Ferrero Rocher" },
         { "id": "sorvete-ovomaltine", "name": "Sorvete de Ovomaltine" }
       ]
     },
@@ -101,8 +99,6 @@
       "maxSelections": 4,
       "items": [
         { "id": "amendoim", "name": "Amendoim" },
-        { "id": "leite", "name": "Leite Ninho" },
-        { "id": "chocoball", "name": "Chocoball" },
         { "id": "flocos-arroz", "name": "Flocos de Arroz" },
         { "id": "granola", "name": "Granola" },
         { "id": "granulado", "name": "Granulado" },

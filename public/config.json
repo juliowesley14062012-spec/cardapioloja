@@ -75,6 +75,7 @@
       "hasExtraPrice": true,
       "items": [
         { "id": "banana", "name": "Banana", "price": 2.00 },
+        { "id": "morango", "name": "Morango", "price": 2.00 },
         { "id": "manga", "name": "Manga", "price": 2.00 }
       ]
     },
@@ -87,7 +88,6 @@
         { "id": "acai-natural", "name": "Açaí Natural" },
         { "id": "acai-morango", "name": "Açaí de Morango" },
         { "id": "acai-banana", "name": "Açaí de Banana" },
-        { "id": "acai-ninho", "name": "Açaí de Ninho" },
         { "id": "acai-nutella", "name": "Açaí de Nutella" },
         { "id": "sorvete-coco", "name": "Sorvete de Coco" },
         { "id": "sorvete-pave", "name": "Sorvete de Pavê" },
@@ -105,6 +105,8 @@
       "items": [
         { "id": "amendoim", "name": "Amendoim" },
         { "id": "flocos-arroz", "name": "Flocos de Arroz" },
+        { "id": "leite-ninho", "name": "Leite Ninho" },
+        { "id": "chocoball", "name": "Chocoball" },
         { "id": "granola", "name": "Granola" },
         { "id": "granulado", "name": "Granulado" },
         { "id": "pacoca", "name": "Paçoca" },

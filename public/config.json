@@ -90,12 +90,9 @@
         { "id": "acai-banana", "name": "Açaí de Banana" },
         { "id": "acai-nutella", "name": "Açaí de Nutella" },
         { "id": "sorvete-coco", "name": "Sorvete de Coco" },
-        { "id": "sorvete-pave", "name": "Sorvete de Pavê" },
         { "id": "sorvete-frutas", "name": "Sorvete de Frutas Vermelhas" },
         { "id": "sorvete-nutella", "name": "Sorvete de Nutella" },
-        { "id": "sorvete-mousse", "name": "Sorvete de Mousse de Maracujá" },
-        { "id": "sorvete-passas", "name": "Sorvete de Passas ao Rum" },
-        { "id": "sorvete-ovomaltine", "name": "Sorvete de Ovomaltine" }
+        { "id": "sorvete-passas", "name": "Sorvete de Passas ao Rum" }
       ]
     },
     {

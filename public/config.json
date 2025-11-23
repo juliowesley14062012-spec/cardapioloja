@@ -89,9 +89,7 @@
         { "id": "acai-morango", "name": "Açaí de Morango" },
         { "id": "acai-banana", "name": "Açaí de Banana" },
         { "id": "acai-nutella", "name": "Açaí de Nutella" },
-        { "id": "sorvete-coco", "name": "Sorvete de Coco" },
         { "id": "sorvete-frutas", "name": "Sorvete de Frutas Vermelhas" },
-        { "id": "sorvete-nutella", "name": "Sorvete de Nutella" },
         { "id": "sorvete-passas", "name": "Sorvete de Passas ao Rum" }
       ]
     },

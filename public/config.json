@@ -87,9 +87,7 @@
       "items": [
         { "id": "acai-natural", "name": "Açaí Natural" },
         { "id": "acai-morango", "name": "Açaí de Morango" },
-        { "id": "acai-banana", "name": "Açaí de Banana" },
-        { "id": "sorvete-frutas", "name": "Sorvete de Frutas Vermelhas" },
-        { "id": "sorvete-passas", "name": "Sorvete de Passas ao Rum" }
+        { "id": "acai-banana", "name": "Açaí de Banana" }
       ]
     },
     {

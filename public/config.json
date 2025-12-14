@@ -64,7 +64,6 @@
       "hasExtraPrice": true,
       "items": [
         { "id": "beijos-fini", "name": "Calda Beijos Fini", "price": 1.00 },
-        { "id": "dentaduras-fini", "name": "Calda Dentaduras Fini", "price": 1.00 },
         { "id": "bananas-fini", "name": "Calda Bananas Fini", "price": 1.00 }
       ]
     },
@@ -130,6 +129,7 @@
       "hasExtraPrice": true,
       "items": [
         { "id": "creme-avela", "name": "Creme de Avelã com Chocolate", "price": 4.00 },
+        { "id": "creme-ninho", "name": "Creme de Ninho Premium", "price": 4.00 },
         { "id": "creme-ouro-branco", "name": "Creme de Ouro Branco", "price": 4.00 },
         { "id": "ouro-branco", "name": "Bombom Ouro Branco", "price": 4.00 },
         { "id": "sonho-valsa", "name": "Bombom Sonho de Valsa", "price": 4.00 }

@@ -75,10 +75,12 @@
       "items": [
         { "id": "acai-natural", "name": "Açaí Natural" },
         { "id": "acai-banana", "name": "Açaí de Banana" },
-        { "id": "iogurte", "name": "Iogurte com Frutas Vermelhas" },
-        { "id": "banana", "name": "Banana com Castanha" },
-        { "id": "mousse", "name": "Mousse de Maracujá" },
-        { "id": "passas", "name": "Passas ao Rum" }
+        { "id": "iogurte", "name": "Sorvete de Iogurte com Frutas Vermelhas" },
+        { "id": "banana", "name": "Sorvete de Banana com Castanha" },
+        { "id": "mousse", "name": "Sorvete de Mousse de Maracujá" },
+        { "id": "nutella", "name": "Sorvete de Nutella" },
+        { "id": "ovomaltine", "name": "Sorvete de Ovomaltine" },
+        { "id": "passas", "name": "Sorvete de Passas ao Rum" }
       ]
     },
     {

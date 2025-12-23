@@ -74,7 +74,6 @@
       "required": true,
       "items": [
         { "id": "acai-natural", "name": "Açaí Natural" },
-        { "id": "acai-morango", "name": "Açaí de Morango" },
         { "id": "acai-banana", "name": "Açaí de Banana" },
         { "id": "iogurte", "name": "Iogurte com Frutas Vermelhas" },
         { "id": "banana", "name": "Banana com Castanha" },

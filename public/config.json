@@ -77,10 +77,6 @@
         { "id": "acai-natural", "name": "Açaí Natural" },
         { "id": "acai-morango", "name": "Açaí de Morango" },
         { "id": "acai-banana", "name": "Açaí de Banana" },
-        { "id": "iogurte", "name": "Sorvete de Iogurte com Frutas Vermelhas" },
-        { "id": "banana", "name": "Sorvete de Banana com Castanha" },
-        { "id": "nutella", "name": "Sorvete de Nutella" },
-        { "id": "ovomaltine", "name": "Sorvete de Ovomaltine" },
         { "id": "passas", "name": "Sorvete de Passas ao Rum" }
       ]
     },

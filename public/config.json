@@ -77,7 +77,11 @@
         { "id": "acai-natural", "name": "Açaí Natural" },
         { "id": "acai-morango", "name": "Açaí de Morango" },
         { "id": "acai-banana", "name": "Açaí de Banana" },
-        { "id": "passas", "name": "Sorvete de Passas ao Rum" }
+        { "id": "prestigio", "name": "Sorvete de Prestígio" },
+        { "id": "ninho", "name": "Sorvete de Ninho Trufado" },
+        { "id": "flocos", "name": "Sorvete de Flocos" },
+        { "id": "pave", "name": "Sorvete de Pavê" },
+        { "id": "oreo", "name": "Sorvete de Óreo" }
       ]
     },
     {

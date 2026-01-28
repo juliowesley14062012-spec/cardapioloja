@@ -82,8 +82,7 @@
         { "id": "prestigio", "name": "Sorvete de Prestígio" },
         { "id": "ninho", "name": "Sorvete de Ninho Trufado" },
         { "id": "flocos", "name": "Sorvete de Flocos" },
-        { "id": "pave", "name": "Sorvete de Pavê" },
-        { "id": "oreo", "name": "Sorvete de Óreo" }
+        { "id": "pave", "name": "Sorvete de Pavê" }
       ]
     },
     {

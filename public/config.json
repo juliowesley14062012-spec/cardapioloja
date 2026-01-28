@@ -74,7 +74,6 @@
       "maxSelections": 4,
       "required": true,
       "items": [
-        { "id": "acai-morango", "name": "Açaí de Morango" },
         { "id": "maracuja", "name": "Sorvete de Mousse de Maracujá" },
         { "id": "nutella", "name": "Sorvete de Nutella" },
         { "id": "passas", "name": "Sorvete de Passas ao Rum" },

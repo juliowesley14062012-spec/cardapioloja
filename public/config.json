@@ -75,13 +75,15 @@
       "required": true,
       "items": [
         { "id": "acai-morango", "name": "Açaí de Morango" },
+        { "id": "acai-banana", "name": "Açaí de Banana" },
         { "id": "maracuja", "name": "Sorvete de Mousse de Maracujá" },
         { "id": "nutella", "name": "Sorvete de Nutella" },
         { "id": "passas", "name": "Sorvete de Passas ao Rum" },
         { "id": "ovomaltine", "name": "Sorvete de Ovomaltine" },
         { "id": "prestigio", "name": "Sorvete de Prestígio" },
         { "id": "ninho", "name": "Sorvete de Ninho Trufado" },
-        { "id": "flocos", "name": "Sorvete de Flocos" },
+        { "id": "oreo", "name": "Sorvete de Óreo" },
+        { "id": "sensacao", "name": "Sorvete de Sensação" },
         { "id": "pave", "name": "Sorvete de Pavê" }
       ]
     },

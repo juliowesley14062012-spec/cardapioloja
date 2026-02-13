@@ -74,15 +74,11 @@
       "maxSelections": 4,
       "required": true,
       "items": [
-        { "id": "acai-natural", "name": "Açaí Natural" },
         { "id": "acai-banana", "name": "Açaí de Banana" },
         { "id": "oreo", "name": "Sorvete de Óreo" },
         { "id": "passas", "name": "Sorvete de Passas ao Rum" },
-        { "id": "pave", "name": "Sorvete de Pavê" },
         { "id": "prestigio", "name": "Sorvete de Prestígio" },
-        { "id": "flocos", "name": "Sorvete de Flocos" },
-        { "id": "banana", "name": "Sorvete de Banana com Castanhas" },
-        { "id": "sensacao", "name": "Sorvete de Sensação" }
+        { "id": "banana", "name": "Sorvete de Banana com Castanhas" }
       ]
     },
     {

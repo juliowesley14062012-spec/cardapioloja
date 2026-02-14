@@ -75,9 +75,6 @@
       "required": true,
       "items": [
         { "id": "acai-banana", "name": "Açaí de Banana" },
-        { "id": "oreo", "name": "Sorvete de Óreo" },
-        { "id": "passas", "name": "Sorvete de Passas ao Rum" },
-        { "id": "prestigio", "name": "Sorvete de Prestígio" },
         { "id": "banana", "name": "Sorvete de Banana com Castanhas" }
       ]
     },
@@ -87,6 +84,7 @@
       "maxSelections": 4,
       "items": [
         { "id": "amendoim", "name": "Amendoim" },
+        { "id": "colorido", "name": "Cereal Colorido" },
         { "id": "flocos-arroz", "name": "Flocos de Arroz" },
         { "id": "leite-ninho", "name": "Leite Ninho" },
         { "id": "chocoball", "name": "Chocoball" },
@@ -106,6 +104,7 @@
         { "id": "disquete", "name": "Disquete", "price": 2.00 },
         { "id": "ovomaltine-extra", "name": "Ovomaltine", "price": 2.00 },
         { "id": "jujuba", "name": "Jujuba", "price": 1.00 },
+        { "id": "minhoca", "name": "Jujuba (Gomas de Minhoca)", "price": 1.00 },
         { "id": "biscoito", "name": "Biscoito", "price": 0.50 }
       ]
     },
@@ -129,7 +128,7 @@
         { "id": "creme-avela", "name": "Creme de Avelã com Chocolate", "price": 4.00 },
         { "id": "creme-ninho", "name": "Creme de Ninho Premium", "price": 4.00 },
         { "id": "creme-ouro-branco", "name": "Creme de Ouro Branco", "price": 4.00 },
-        { "id": "ouro-branco", "name": "Bombom Ouro Branco", "price": 4.00 },
+        { "id": "creme-cookie", "name": "Creme de Cookie Branco", "price": 4.00 },
         { "id": "sonho-valsa", "name": "Bombom Sonho de Valsa", "price": 4.00 }
       ]
     }

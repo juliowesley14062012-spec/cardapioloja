@@ -75,6 +75,7 @@
       "required": true,
       "items": [
         { "id": "acai-banana", "name": "Açaí de Banana" },
+        { "id": "acai-morango", "name": "Açaí de Morango" },
         { "id": "banana", "name": "Sorvete de Banana com Castanhas" }
       ]
     },

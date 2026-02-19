@@ -75,6 +75,7 @@
       "required": true,
       "items": [
         { "id": "acai-morango", "name": "Açaí de Morango" },
+        { "id": "acai-banana", "name": "Açaí de Banana" },
         { "id": "ninho", "name": "Sorvete de Ninho Trufado" },
         { "id": "nutella", "name": "Sorvete de Nutella" },
         { "id": "sensacao", "name": "Sorvete de Sensação" },

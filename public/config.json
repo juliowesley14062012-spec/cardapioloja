@@ -74,9 +74,13 @@
       "maxSelections": 4,
       "required": true,
       "items": [
-        { "id": "acai-natural", "name": "Açaí Natural" },
-        { "id": "acai-banana", "name": "Açaí de Banana" },
-        { "id": "acai-morango", "name": "Açaí de Morango" }
+        { "id": "acai-morango", "name": "Açaí de Morango" },
+        { "id": "ninho", "name": "Sorvete de Ninho Trufado" },
+        { "id": "nutella", "name": "Sorvete de Nutella" },
+        { "id": "sensacao", "name": "Sorvete de Sensação" },
+        { "id": "pave", "name": "Sorvete de Pavê" },
+        { "id": "prestigio", "name": "Sorvete de Prestígio" },
+        { "id": "passas", "name": "Sorvete de Passas ao Rum" }
       ]
     },
     {

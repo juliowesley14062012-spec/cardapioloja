@@ -135,7 +135,8 @@
         { "id": "creme-avela", "name": "Creme de Avelã com Chocolate", "price": 4.00 },
         { "id": "creme-ninho", "name": "Creme de Ninho Premium", "price": 4.00 },
         { "id": "creme-ouro-branco", "name": "Creme de Ouro Branco", "price": 4.00 },
-        { "id": "creme-cookie", "name": "Creme de Cookie Branco", "price": 4.00 }
+        { "id": "creme-cookie", "name": "Creme de Cookie Branco", "price": 4.00 },
+        { "id": "sonho", "name": "Bombom Sonho de Valsa", "price": 4.00 }
       ]
     }
   ]

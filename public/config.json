@@ -74,6 +74,7 @@
       "maxSelections": 4,
       "required": true,
       "items": [
+        { "id": "acai-natural", "name": "Açaí Natural" },
         { "id": "acai-morango", "name": "Açaí de Morango" },
         { "id": "acai-banana", "name": "Açaí de Banana" },
         { "id": "ninho", "name": "Sorvete de Ninho Trufado" },

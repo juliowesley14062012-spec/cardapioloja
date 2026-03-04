@@ -76,8 +76,11 @@
       "items": [
         { "id": "acai-natural", "name": "Açaí Natural" },
         { "id": "acai-morango", "name": "Açaí de Morango" },
-        { "id": "sensacao", "name": "Sorvete de Sensação" },
+        { "id": "pave", "name": "Sorvete de Pavê" },
+        { "id": "oreo", "name": "Sorvete de Óreo" },
         { "id": "prestigio", "name": "Sorvete de Prestígio" },
+        { "id": "nutella", "name": "Sorvete de Nutella" },
+        { "id": "ninho", "name": "Sorvete de Ninho Trufado" },
         { "id": "passas", "name": "Sorvete de Passas ao Rum" }
       ]
     },

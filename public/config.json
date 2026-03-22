@@ -74,14 +74,11 @@
       "maxSelections": 4,
       "required": true,
       "items": [
-        { "id": "acai-natural", "name": "Açaí Natural" },
         { "id": "acai-morango", "name": "Açaí de Morango" },
         { "id": "acai-maracuja", "name": "Açaí de Maracujá" },
         { "id": "pave", "name": "Sorvete de Pavê" },
-        { "id": "oreo", "name": "Sorvete de Óreo" },
         { "id": "prestigio", "name": "Sorvete de Prestígio" },
-        { "id": "churros", "name": "Sorvete de Churros" },
-        { "id": "flocos", "name": "Sorvete de Flocos" }
+        { "id": "churros", "name": "Sorvete de Churros" }
       ]
     },
     {

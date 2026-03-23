@@ -76,7 +76,6 @@
       "items": [
         { "id": "acai-morango", "name": "Açaí de Morango" },
         { "id": "acai-maracuja", "name": "Açaí de Maracujá" },
-        { "id": "pave", "name": "Sorvete de Pavê" },
         { "id": "prestigio", "name": "Sorvete de Prestígio" },
         { "id": "churros", "name": "Sorvete de Churros" }
       ]

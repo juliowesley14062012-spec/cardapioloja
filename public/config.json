@@ -78,6 +78,8 @@
         { "id": "passas", "name": "Sorvete de Passas ao Rum" },
         { "id": "sensacao", "name": "Sorvete de Sensação" },
         { "id": "ovomaltine", "name": "Sorvete de Ovomaltine" },
+        { "id": "prestigio", "name": "Sorvete de Prestígio" },
+        { "id": "oreo", "name": "Sorvete de Óreo" },
         { "id": "ninho", "name": "Sorvete de Ninho Trufado" }
       ]
     },

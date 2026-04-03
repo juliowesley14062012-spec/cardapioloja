@@ -36,6 +36,16 @@
       "price": 26.00,
       "description": "Aqui cabe tudo que a sua fome mandar! 1 litro inteiro pra criar sua obra-prima gelada.",
       "highlight": true
+    },
+    {
+      "id": "1500ml",
+      "name": "Ovo da Páscoa Gelada",
+      "volume": "1500ml",
+      "price": 30.00,
+      "description": "Monte seu Ovo da Páscoa perfeito do jeito que você quiser! Nosso ovo de chocolate vem recheado com um delicioso açaí e acompanhado de cremosas bolas de sorvete. Você escolhe os complementos e finaliza com nossos irresistíveis Adicionais Mega Especiais!
+
+Complete com disquetes crocantes e outros adicionais para deixar do seu gosto",
+      "highlight": true
     }
   ],
   "categories": [

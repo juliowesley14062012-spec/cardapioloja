@@ -86,6 +86,7 @@
         { "id": "acai-natural", "name": "Açaí Natural" },
         { "id": "acai-banana", "name": "Açaí de Banana" },
         { "id": "flocos", "name": "Sorvete de Flocos" },
+        { "id": "torta", "name": "Sorvete de Torta de Limão" },
         { "id": "passas", "name": "Sorvete de Passas ao Rum" },
         { "id": "sensacao", "name": "Sorvete de Sensação" },
         { "id": "menta", "name": "Sorvete de Chocomenta" },
